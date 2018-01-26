@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: dimgray;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url('http://www.f-covers.com/cover/food-3-facebook-cover-timeline-banner-for-fb.jpg');
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  color: dimgray;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
